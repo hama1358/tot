@@ -2,23 +2,38 @@
   <!-- 원형 배경 -->
   <circle cx="70" cy="70" r="70" fill="#0070C0"/>
   <circle cx="70" cy="70" r="62" fill="#3D9BE0"/>
-  <!-- 안테나 -->
-  <line x1="70" y1="22" x2="70" y2="38" stroke="#0E2841" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="70" cy="20" r="6" fill="#FFD166"/>
-  <!-- 귀 -->
-  <rect x="26" y="62" width="10" height="24" rx="5" fill="#0E2841"/>
-  <rect x="104" y="62" width="10" height="24" rx="5" fill="#0E2841"/>
-  <!-- 얼굴 -->
-  <rect x="34" y="38" width="72" height="66" rx="22" fill="#F4F8FC" stroke="#0E2841" stroke-width="4"/>
-  <!-- 눈 화면 -->
-  <rect x="44" y="54" width="52" height="24" rx="12" fill="#0E2841"/>
-  <circle cx="58" cy="66" r="6" fill="#7FD3FF"/>
-  <circle cx="82" cy="66" r="6" fill="#7FD3FF"/>
-  <circle cx="60" cy="64" r="2" fill="#FFFFFF"/>
-  <circle cx="84" cy="64" r="2" fill="#FFFFFF"/>
-  <!-- 볼 -->
-  <circle cx="46" cy="88" r="5" fill="#FF9EB5" opacity="0.8"/>
-  <circle cx="94" cy="88" r="5" fill="#FF9EB5" opacity="0.8"/>
-  <!-- 웃는 입 -->
-  <path d="M60 88 Q70 97 80 88" fill="none" stroke="#0E2841" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- 귀 (하마 귀: 둥글고 작은 귀) -->
+  <ellipse cx="36" cy="38" rx="10" ry="12" fill="#7E9EB8" stroke="#0E2841" stroke-width="3"/>
+  <ellipse cx="36" cy="38" rx="5" ry="6" fill="#FFB4C6"/>
+  <ellipse cx="104" cy="38" rx="10" ry="12" fill="#7E9EB8" stroke="#0E2841" stroke-width="3"/>
+  <ellipse cx="104" cy="38" rx="5" ry="6" fill="#FFB4C6"/>
+
+  <!-- 하마 머리 상단 -->
+  <path d="M 38 72 C 38 42, 102 42, 102 72 Z" fill="#95B5CE" stroke="#0E2841" stroke-width="3.5"/>
+
+  <!-- 눈 -->
+  <circle cx="53" cy="56" r="6" fill="#0E2841"/>
+  <circle cx="87" cy="56" r="6" fill="#0E2841"/>
+  <!-- 눈동자 하이라이트 -->
+  <circle cx="55" cy="54" r="2" fill="#FFFFFF"/>
+  <circle cx="89" cy="54" r="2" fill="#FFFFFF"/>
+
+  <!-- 볼터치 -->
+  <circle cx="36" cy="78" r="6" fill="#FF9EB5" opacity="0.7"/>
+  <circle cx="104" cy="78" r="6" fill="#FF9EB5" opacity="0.7"/>
+
+  <!-- 하마의 크고 둥근 주둥이/입 영역 -->
+  <ellipse cx="70" cy="88" rx="38" ry="24" fill="#A8C5DC" stroke="#0E2841" stroke-width="3.5"/>
+
+  <!-- 콧구멍 2개 -->
+  <ellipse cx="58" cy="78" rx="4.5" ry="5.5" fill="#0E2841"/>
+  <ellipse cx="82" cy="78" rx="4.5" ry="5.5" fill="#0E2841"/>
+
+  <!-- 미소/입선 -->
+  <path d="M 58 95 Q 70 104 82 95" fill="none" stroke="#0E2841" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 귀여운 아랫니 2개 -->
+  <path d="M 62 97 L 62 101 A 2 2 0 0 0 66 101 L 66 97 Z" fill="#FFFFFF" stroke="#0E2841" stroke-width="1.5"/>
+  <path d="M 74 97 L 74 101 A 2 2 0 0 0 78 101 L 78 97 Z" fill="#FFFFFF" stroke="#0E2841" stroke-width="1.5"/>
 </svg>
